@@ -19,7 +19,7 @@ typedef struct ADRC
 } _ADRC_;
 
 void ADRC_Init(_ADRC_ *sptr);
-float ADRC(float vin,float y , _ADRC_ *sptr);
+float ADRC_han(float vin,float y , _ADRC_ *sptr);
 
-
+float ADRC_sun(float vin,float y , _ADRC_ *sptr);
 #endif
